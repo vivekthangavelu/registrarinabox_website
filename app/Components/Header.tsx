@@ -8,40 +8,8 @@ export default function Header() {
         className="flex items-center justify-between p-6 lg:px-8"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5 text-2xl">
-            <span className="sr-only">DotMonk</span>
-            <svg
-              className="h-12 w-auto"
-              viewBox="0 0 200 50"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="15"
-                cy="25"
-                r="8"
-                className="fill-indigo-600 dark:fill-indigo-500"
-              ></circle>
-              <circle
-                cx="15"
-                cy="25"
-                r="3"
-                className="fill-white dark:fill-gray-900"
-              ></circle>
-              <text
-                x="32"
-                y="35"
-                className="fill-gray-900 dark:fill-white"
-                // style={font-family:
-                //       system-ui,
-                //       -apple-system,
-                //       sans-serif;
-                //     font-size: 24px;
-                //     font-weight: 600;}
-              >
-                DotMonk
-              </text>
-            </svg>
+          <a href="#" className="-m-1.5 p-1.5 text-2xl font-extrabold">
+            Registrarinabox
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -57,15 +25,15 @@ export default function Header() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               data-slot="icon"
               aria-hidden="true"
               className="size-6"
             >
               <path
                 d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></path>
             </svg>
           </button>
@@ -106,8 +74,8 @@ export default function Header() {
                   </a>
                   <button type="button" command="close" commandfor="mobile-menu" className="-m-2.5 rounded-md p-2.5 text-gray-700 cursor-pointer dark:text-gray-200" aria-expanded="false">
                     <span className="sr-only">Close menu</span>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" className="size-6">
-                      <path d="M6 18 18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" data-slot="icon" aria-hidden="true" className="size-6">
+                      <path d="M6 18 18 6M6 6l12 12" strokeLinecap="round" strokeLinejoin="round"></path>
                     </svg>
                   </button>
                 </div>
