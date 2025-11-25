@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+"use client";
 
 export default function Home() {
   return (
@@ -256,10 +256,7 @@ export default function Home() {
             <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
               <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 <div>
-                  <label
-                    for="first-name"
-                    className="block text-sm/6 font-semibold text-gray-900 dark:text-white"
-                  >
+                  <label className="block text-sm/6 font-semibold text-gray-900 dark:text-white">
                     First name
                   </label>
                   <div className="mt-2.5">
@@ -268,15 +265,11 @@ export default function Home() {
                       type="text"
                       name="first-name"
                       className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 dark:bg-white/5 dark:text-white dark:outline-white/10 dark:placeholder:text-gray-500 dark:focus:outline-indigo-500"
-                      fdprocessedid="yv8pf"
                     />
                   </div>
                 </div>
                 <div>
-                  <label
-                    for="last-name"
-                    className="block text-sm/6 font-semibold text-gray-900 dark:text-white"
-                  >
+                  <label className="block text-sm/6 font-semibold text-gray-900 dark:text-white">
                     Last name
                   </label>
                   <div className="mt-2.5">
@@ -285,15 +278,11 @@ export default function Home() {
                       type="text"
                       name="last-name"
                       className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 dark:bg-white/5 dark:text-white dark:outline-white/10 dark:placeholder:text-gray-500 dark:focus:outline-indigo-500"
-                      fdprocessedid="dt51pt"
                     />
                   </div>
                 </div>
                 <div className="sm:col-span-2">
-                  <label
-                    for="email"
-                    className="block text-sm/6 font-semibold text-gray-900 dark:text-white"
-                  >
+                  <label className="block text-sm/6 font-semibold text-gray-900 dark:text-white">
                     Email
                   </label>
                   <div className="mt-2.5">
@@ -302,15 +291,11 @@ export default function Home() {
                       type="email"
                       name="email"
                       className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 dark:bg-white/5 dark:text-white dark:outline-white/10 dark:placeholder:text-gray-500 dark:focus:outline-indigo-500"
-                      fdprocessedid="flpkns"
                     />
                   </div>
                 </div>
                 <div className="sm:col-span-2">
-                  <label
-                    for="phone-number"
-                    className="block text-sm/6 font-semibold text-gray-900 dark:text-white"
-                  >
+                  <label className="block text-sm/6 font-semibold text-gray-900 dark:text-white">
                     Phone number
                   </label>
                   <div className="mt-2.5">
@@ -319,22 +304,17 @@ export default function Home() {
                       type="tel"
                       name="phone-number"
                       className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 dark:bg-white/5 dark:text-white dark:outline-white/10 dark:placeholder:text-gray-500 dark:focus:outline-indigo-500"
-                      fdprocessedid="qs0d6h"
                     />
                   </div>
                 </div>
                 <div className="sm:col-span-2">
-                  <label
-                    for="message"
-                    className="block text-sm/6 font-semibold text-gray-900 dark:text-white"
-                  >
+                  <label className="block text-sm/6 font-semibold text-gray-900 dark:text-white">
                     Message
                   </label>
                   <div className="mt-2.5">
                     <textarea
                       id="message"
                       name="message"
-                      rows="4"
                       className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 dark:bg-white/5 dark:text-white dark:outline-white/10 dark:placeholder:text-gray-500 dark:focus:outline-indigo-500"
                     ></textarea>
                   </div>
