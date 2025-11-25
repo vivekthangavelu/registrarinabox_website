@@ -235,7 +235,7 @@ export default function Home() {
                   </dt>
                   <dd>
                     <a
-                      href="mailto:hello@dotmonkin"
+                      href="mailto:venky@dotuptech.com"
                       className="hover:text-gray-900 dark:hover:text-white"
                     >
                       venky@dotuptech.com
