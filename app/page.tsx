@@ -179,11 +179,11 @@ export default function Home() {
                     </svg>
                   </dt>
                   <dd>
-                    Dotup ICANN Accreditation Consulting
+                    Registrar In A Box 1 LLC
                     <br />
-                    465 Verducci Dr, Daly City
+                    W36 3001 Lodha Amara
                     <br />
-                    94015, CA, United States
+                    Kolshet Road, Thane, 400607, MH India
                   </dd>
                 </div>
                 <div className="flex gap-x-4">
